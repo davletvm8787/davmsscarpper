@@ -1,6 +1,6 @@
 # davmsscarpper
 
-<img src="https://github.com/cullenwatson/JobSpy/assets/78247585/ae185b7e-e444-4712-8bb9-fa97f53e896b" width="400">
+<img src="https://www.jobwars.de/logo.svg" width="400">
 
 **WebScraper** scraping library developed for the jobwars.de project .
 
