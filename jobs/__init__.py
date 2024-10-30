@@ -149,10 +149,8 @@ class JobPost(BaseModel):
     is_remote: bool | None = None
     listing_type: str | None = None
 
-    # linkedin specific
     job_level: str | None = None
 
-    # linkedin and indeed specific
     company_industry: str | None = None
 
     # indeed specific
@@ -163,7 +161,6 @@ class JobPost(BaseModel):
     company_logo: str | None = None
     banner_photo_url: str | None = None
 
-    # linkedin only atm
     job_function: str | None = None
 
 
