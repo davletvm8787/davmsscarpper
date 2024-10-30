@@ -21,7 +21,7 @@ _Python version >= [3.10](https://www.python.org/downloads/release/python-3100/)
 
 ```python
 import csv
-from jobspy import scrape_jobs
+from davmscraper import scrape_jobs
 
 jobs = scrape_jobs(
     site_name=["indeed.de", "kimeta", "stepstone"],
