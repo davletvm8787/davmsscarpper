@@ -86,13 +86,13 @@ class Location(BaseModel):
         if isinstance(self.country, str):
             location_parts.append(self.country)
         elif self.country and self.country not in (
-            Country.US_CANADA,
+            Country.DEUTSCHLAND,
             Country.WORLDWIDE,
         ):
             country_name = self.country.value[0]
             if "," in country_name:
                 country_name = country_name.split(",")[0]
-            if country_name in ("usa", "uk"):
+            if country_name in ("deutschland", "de"):
                 location_parts.append(country_name.upper())
             else:
                 location_parts.append(country_name.title())
@@ -122,7 +122,7 @@ class Compensation(BaseModel):
     interval: Optional[CompensationInterval] = None
     min_amount: float | None = None
     max_amount: float | None = None
-    currency: Optional[str] = "USD"
+    currency: Optional[str] = "Euro"
 
 
 class DescriptionFormat(Enum):

@@ -28,7 +28,7 @@ def scrape_jobs(
     job_type: str | None = None,
     easy_apply: bool | None = None,
     results_wanted: int = 15,
-    country_indeed: str = "usa",
+    country_indeed: str = "deutschland",
     hyperlinks: bool = False,
     proxies: list[str] | str | None = None,
     ca_cert: str | None = None,
